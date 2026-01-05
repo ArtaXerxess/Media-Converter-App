@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Nana_Format_Factory.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Image
+                Source="dotnet_bot.png"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="dot net bot in a hovercraft number nine" />
+
+            <Label
+                Text="Hello, Nana 🤗"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+
+            <Label
+                Text="I wrote this app in your phone to convert your mov, wav or any legacy video/audio files to sharable mp4/mp3"
+                Style="{StaticResource SubHeadline}"
+                FontSize="16"
+                SemanticProperties.HeadingLevel="Level2" />
+
+            <Label
+                x:Name="ConvertingLabel"
+                Text=""
+                />
+
+            <Button
+                x:Name="SelectFile_Button"
+                Text="Select a File"
+                Clicked="SelectFile_Button_Clicked"
+                />
+
+            <Button
+                x:Name="Convert_Button"
+                Text="Convert 🙉"
+                Clicked="Convert_Button_Clicked"
+                />
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

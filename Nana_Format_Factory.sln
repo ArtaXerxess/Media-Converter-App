@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36429.23 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nana_Format_Factory", "Nana_Format_Factory.csproj", "{730F3F39-812C-4C51-8E46-53CB97925163}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{730F3F39-812C-4C51-8E46-53CB97925163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{730F3F39-812C-4C51-8E46-53CB97925163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{730F3F39-812C-4C51-8E46-53CB97925163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{730F3F39-812C-4C51-8E46-53CB97925163}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7FB04352-FAE3-452E-9732-5E9599738276}
+	EndGlobalSection
+EndGlobal
